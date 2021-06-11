@@ -447,7 +447,7 @@ a:focus {
     top: 0px;
     left: 0;
     width: 100%;
-    background: url(../images/banner.jpg) no-repeat center center;
+    background: url(../images/video2.mp4) no-repeat center center;
     background-size: cover;
     padding: 100px 0 100px;
 }
@@ -543,7 +543,7 @@ a:focus {
 .main-title {
     text-align: center;
     padding-bottom: 20px;
-    background: url(../images/title-bg.png) no-repeat bottom center;
+    background: url(../images/video2.mp4) no-repeat bottom center;
     margin-bottom: 80px;
 }
 
@@ -666,12 +666,9 @@ a:focus {
     color: #212121;
 }
 
-.team-box {
-    border: 1px solid #2f2c2c;
-}
+
 
 .team-box figure {
-    background: #2f2c2c;
     text-align: center;
     padding: 20px 20px 0 20px;
 }
@@ -794,17 +791,17 @@ a:focus {
 }
 
 .pricing-logo {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 16px;
+    margin-bottom: 15px;
 }
 
 .price-list {
     max-width: 420px;
-    margin: 0 auto 30px;
+    margin: 0px auto 15px;
 }
 
 .price-item {
-    font-size: 20px;
+    font-size: 14px;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.1em;
@@ -834,7 +831,7 @@ a:focus {
 
 .testimonial {
     padding: 100px 0;
-    background: url(../images/testimonial-bg.jpg) no-repeat center center;
+    background: url(../images/slika5.jpeg) no-repeat center center;
     background-size: cover;
     position: relative;
 }
