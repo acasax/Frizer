@@ -324,11 +324,11 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    top: -72px;
+    top: 0px;
 }
 
 .navbar-brand {
-    padding: 1px 15px;
+    padding: 0px 100px;
 }
 
 .navbar-brand img {
@@ -359,7 +359,7 @@ a:focus {
     background: #be9342;
     border: none;
     border-bottom: 1px solid transparent;
-    padding: 10px 0;
+    padding: 30px 0;
     border-radius: 0;
     z-index: 12;
     transition: all 0.4s;
@@ -376,7 +376,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav>li>a {
-    font-size: 13px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.04em;
@@ -1211,4 +1211,8 @@ footer {
     .testimonial-single h3 {
         font-size: 18px;
     }
+}
+
+.image-padding {
+    padding: 3px;
 }
