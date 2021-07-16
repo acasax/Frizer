@@ -134,6 +134,74 @@
      </section>
      <!-- Banner Section Ends -->
 
+     <!-- Contactus section starts -->
+     <section class="contactus" id="contact">
+         <div class="container-fluid">
+             <div class="row no-pad">
+                 <div class="col-md-4"></div>
+                 <div class="col-md-4">
+                     <div class="contact-form">
+                         <h2 class="contact-form-title">Rezerviši odmah</h2>
+
+                         <form id="reservationForm" data-form-type="contact" method="post" enctype="multipart/form-data">
+                             <div class="form-group">
+                                 <input type="text" class="form-control" id="name" name="name" placeholder="Ime i prezime" />
+                             </div>
+
+                             <div class="form-group" hidden>
+                                 <input type="text" class="form-control" id="email" name="email" placeholder="Email" />
+                             </div>
+
+                             <div class="form-group">
+                                 <input type="text" class="form-control" id="phone" name="phone" placeholder="Broj telefona" />
+                             </div>
+
+                             <script>
+                                 $(document).ready(function() {
+                                     var today = new Date().toISOString().split('T')[0];
+                                     document.getElementsByName("date")[0].setAttribute('min', today);
+
+                                     var nextWeekDate = new Date(new Date().getTime() + 6 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
+                                     document.getElementsByName("date")[0].setAttribute('max', nextWeekDate);
+                                 })
+                             </script>
+
+                             <div class="form-group">
+                                 <input type="datetime-local" class="form-control" id="date" name="date" placeholder="" />
+                             </div>
+
+                             <div class="form-group">
+                                 <select class="form-control" name="service" id="service">
+                                     <option>Usluga</option>
+                                     <option value="dope haircut">Dope haircut</option>
+                                     <option value="dope buzzcut">Dope buzzcut</option>
+                                     <option value="buzzcut">Buzzcut</option>
+                                     <option value="head shaving">Head shaving</option>
+                                     <option value="dope shaving">Dope shaving</option>
+                                     <option value="dope beard">Dope beard</option>
+                                     <option value="buzz beard">Buzz beard</option>
+                                     <option value="dope washing">Dope washing</option>
+                                     <option value="dope haircut & dope beard">Dope haircut & Dope beard</option>
+                                     <option value="buzzcut & dope beard">Buzzcut & Dope beard</option>
+                                     <option value="buzzcut & Buzzbeard">Buzzcut & BuzzBeard</option>
+                                     <option value="kids haircut">Kids haircut</option>
+                                 </select>
+                             </div>
+
+                             <div class="form-group">
+                                 <textarea class="form-control" rows="5" id="note" name="note" placeholder="Napomena"></textarea>
+                             </div>
+
+                             <div class="form-group">
+                                 <button type="submit" class="btn-contact" value="Posalji">Zakaži</button>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
      <!-- About us section starts -->
      <section class="aboutus" id="about">
          <div class="container">
@@ -171,6 +239,11 @@
          </div>
      </section>
      <!-- About us section ends -->
+
+     <section class="contactus">
+         <video src="images/video01.mp4" id="video" autoplay loop width="100%" controls>
+         </video>
+     </section>
 
      <!-- Services section starts -->
      <section class="service" id="service">
@@ -452,73 +525,7 @@
 
      <!-- Testimonial section ends -->
 
-     <!-- Contactus section starts -->
-     <section class="contactus" id="contact">
-         <div class="container-fluid">
-             <div class="row no-pad">
-                 <div class="col-md-4"></div>
-                 <div class="col-md-4">
-                     <div class="contact-form">
-                         <h2 class="contact-form-title">Rezerviši odmah</h2>
 
-                         <form id="reservationForm" data-form-type="contact" method="post" enctype="multipart/form-data">
-                             <div class="form-group">
-                                 <input type="text" class="form-control" id="name" name="name" placeholder="Ime i prezime" />
-                             </div>
-
-                             <div class="form-group" hidden>
-                                 <input type="text" class="form-control" id="email" name="email" placeholder="Email" />
-                             </div>
-
-                             <div class="form-group">
-                                 <input type="text" class="form-control" id="phone" name="phone" placeholder="Broj telefona" />
-                             </div>
-
-                             <script>
-                                 $(document).ready(function() {
-                                     var today = new Date().toISOString().split('T')[0];
-                                     document.getElementsByName("date")[0].setAttribute('min', today);
-
-                                     var nextWeekDate = new Date(new Date().getTime() + 6 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
-                                     document.getElementsByName("date")[0].setAttribute('max', nextWeekDate);
-                                 })
-                             </script>
-
-                             <div class="form-group">
-                                 <input type="datetime-local" class="form-control" id="date" name="date" placeholder="" />
-                             </div>
-
-                             <div class="form-group">
-                                 <select class="form-control" name="service" id="service">
-                                     <option>Usluga</option>
-                                     <option value="dope haircut">Dope haircut</option>
-                                     <option value="dope buzzcut">Dope buzzcut</option>
-                                     <option value="buzzcut">Buzzcut</option>
-                                     <option value="head shaving">Head shaving</option>
-                                     <option value="dope shaving">Dope shaving</option>
-                                     <option value="dope beard">Dope beard</option>
-                                     <option value="buzz beard">Buzz beard</option>
-                                     <option value="dope washing">Dope washing</option>
-                                     <option value="dope haircut & dope beard">Dope haircut & Dope beard</option>
-                                     <option value="buzzcut & dope beard">Buzzcut & Dope beard</option>
-                                     <option value="buzzcut & Buzzbeard">Buzzcut & BuzzBeard</option>
-                                     <option value="kids haircut">Kids haircut</option>
-                                 </select>
-                             </div>
-
-                             <div class="form-group">
-                                 <textarea class="form-control" rows="5" id="note" name="note" placeholder="Napomena"></textarea>
-                             </div>
-
-                             <div class="form-group">
-                                 <button type="submit" class="btn-contact" value="Posalji">Zakaži</button>
-                             </div>
-                         </form>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section>
      <!-- Contactus section ends -->
 
      <footer>
