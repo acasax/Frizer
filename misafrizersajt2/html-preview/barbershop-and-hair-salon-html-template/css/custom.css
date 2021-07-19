@@ -45,16 +45,16 @@ a:focus {
 ::-moz-selection {
     /* Code for Firefox */
     color: #fff;
-    background: #be9342;
+    background: #fd9f00;
 }
 
 ::selection {
     color: #fff;
-    background: #be9342;
+    background: #fd9f00;
 }
 
 .preloader {
-    background: #be9342;
+    background: #fd9f00;
     bottom: 0;
     left: 0;
     position: fixed;
@@ -332,7 +332,7 @@ a:focus {
 }
 
 .navbar-brand img {
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(0);
     transition: all 0.3s;
 }
 
@@ -356,7 +356,7 @@ a:focus {
 }
 
 .navbar-default {
-    background: #be9342;
+    background: #fd9f00;
     border: none;
     border-bottom: 1px solid transparent;
     padding: 30px 0;
@@ -460,7 +460,7 @@ a:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.50);
+    background: #587ab7
 }
 
 .banner-icon {
@@ -492,7 +492,7 @@ a:focus {
 
 .header-banner p {
     font-family: 'NoemieScript';
-    font-size: 32px;
+    font-size: 50px;
     color: rgba(255, 255, 255, 0.76);
     padding-top: 30px;
     padding-bottom: 10px;
@@ -520,7 +520,7 @@ a:focus {
     width: 60px;
     text-align: center;
     font-size: 50px;
-    color: #be9342;
+    color: #fd9f00;
     position: absolute;
     left: 10px;
     top: 10px;
@@ -569,6 +569,7 @@ a:focus {
 }
 
 .about-img-single {
+    padding: 5px;
     width: 33.33%;
     float: left;
 }
@@ -616,7 +617,7 @@ a:focus {
     height: 156px;
     border-radius: 50%;
     padding-top: 24px;
-    border: 2px solid #be9342;
+    border: 2px solid #fd9f00;
     position: relative;
 }
 
@@ -631,12 +632,12 @@ a:focus {
 
 .service-single .icon-box i {
     font-size: 80px;
-    color: #be9342;
+    color: #fd9f00;
 }
 
 .service-single h3 {
     text-transform: uppercase;
-    color: #be9342;
+    color: #fd9f00;
     font-weight: 600;
     font-size: 22 px;
     letter-spacing: 0.1em;
@@ -651,7 +652,7 @@ a:focus {
 .service-single h5 {
     font-size: 20px;
     display: inline-block;
-    background: #be9342;
+    background: #fd9f00;
     text-transform: uppercase;
     padding: 14px 20px 10px;
     color: #fff;
@@ -680,7 +681,7 @@ a:focus {
 
 .team-box .team-entry p {
     font-size: 18px;
-    color: #be9342;
+    color: #fd9f00;
     text-transform: uppercase;
 }
 
@@ -696,7 +697,7 @@ a:focus {
     display: inline-block;
     padding: 0 6px;
     font-size: 20px;
-    color: #be9342;
+    color: #fd9f00;
 }
 
 .team-social a:hover {
@@ -738,7 +739,7 @@ a:focus {
     right: 20px;
     bottom: 20px;
     background: rgba(0, 0, 0, 0.5);
-    border: 4px solid #be9342;
+    border: 4px solid #fd9f00;
     transition: all 0.4s;
     transform: scale(0.5);
     opacity: 0;
@@ -768,7 +769,7 @@ a:focus {
     display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    color: #be9342;
+    color: #fd9f00;
     text-transform: uppercase;
     background: #fff;
     line-height: 1em;
@@ -903,12 +904,12 @@ a:focus {
 
 .testimonial-slider .owl-nav .owl-next:hover,
 .testimonial-slider .owl-nav .owl-prev:hover {
-    background: #be9342;
+    background: #fd9f00;
     color: #fff;
 }
 
 .contactus {
-    background: #be9342;
+    background: #fd9f00;
 }
 
 .contactus .container-fluid {
@@ -959,7 +960,7 @@ a:focus {
 }
 
 footer {
-    background: #212121;
+    background: #587ab7;
     padding: 60px 0;
 }
 
@@ -969,7 +970,7 @@ footer {
 
 .footer-social a {
     display: inline-block;
-    color: #be9342;
+    color: #fd9f00;
     font-size: 14px;
     padding: 0 8px;
     transform: all 0.3s;
@@ -996,7 +997,7 @@ footer {
 }
 
 .site-info p a:hover {
-    color: #be9342;
+    color: #fd9f00;
 }
 
 .footer-menu {
@@ -1031,7 +1032,7 @@ footer {
 }
 
 .footer-menu ul li a:hover {
-    color: #be9342;
+    color: #fd9f00;
 }
 
 
@@ -1089,7 +1090,7 @@ footer {
         background: none;
     }
     .slicknav_menu ul {
-        background: #be9342;
+        background: #fd9f00;
     }
     .slicknav_menu li {
         padding: 0 10px;

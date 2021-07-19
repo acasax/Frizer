@@ -60,7 +60,7 @@
                  <div class="navbar-header">
                      <!-- Logo starts -->
                      <a class="navbar-brand" href="#">
-                         <img src="images/logo.png" style="width: 100px;" alt="Barbershop" />
+                         <img src="images/logo-textsastrane-tp.png" style="width: 182px;" alt="Barbershop" />
                      </a>
                      <!-- Logo Ends -->
 
@@ -97,7 +97,7 @@
              <div class="row">
                  <div class="col-md-12">
                      <div class="header-banner">
-                         <p>Dope barber shop</p>
+                         <p style="font-size: 20;">Dope barber shop</p>
                          <h3>Vaš novi savršen <br />Stil & Dizajn</h3>
                      </div>
                  </div>
@@ -108,23 +108,25 @@
                      <div class="banner-info-single">
                          <div class="icon-box"><i class="fa fa-clock-o"></i></div>
                          <h3>Radno vreme</h3>
-                         <p>Ponedeljak – Petak: 09:00 – 22:00</p>
+                         <p>Ponedeljak – Petak: 10:00 – 20:00<br> Subotom : 11:00 - 17:00</p>
                      </div>
                  </div>
 
                  <div class="col-md-4">
+                     <a href="https://www.google.rs/maps/place/Dope+barbershop+Belgrade/@44.8138402,20.4738994,19.75z/data=!4m12!1m6!3m5!1s0x475a7bc946769ab3:0xf7ba46d1af24114f!2sDope+barbershop+Belgrade!8m2!3d44.8139363!4d20.4739259!3m4!1s0x475a7bc946769ab3:0xf7ba46d1af24114f!8m2!3d44.8139363!4d20.4739259">
                      <div class="banner-info-single">
                          <div class="icon-box"><i class="fa fa-map-marker"></i></div>
                          <h3>Naša lokacija</h3>
-                         <p>100 Mainstreet Center, Sydney</p>
+                         <p>Dalmatinska 19, Beograd</p>
                      </div>
+                     </a>
                  </div>
 
                  <div class="col-md-4">
                      <div class="banner-info-single">
                          <div class="icon-box"><i class="fa fa-phone"></i></div>
                          <h3>Rezerviši odmah </h3>
-                         <p>+208 333 9296</p>
+                         <p>(+381) 62 776 911</p>
                      </div>
                  </div>
              </div>
@@ -133,6 +135,46 @@
          <div class="banner-icon"><i class="flaticon-hair-salon-situation"></i></div>
      </section>
      <!-- Banner Section Ends -->
+
+
+
+     <!-- About us section starts -->
+     <section class="aboutus" id="about">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="main-title">
+                         <h2>O frizerskom salonu</h2>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="about-image">
+                         <div class="about-img-single">
+                             <img src="images/slika3.jpeg" alt="" />
+                         </div>
+
+                         <div class="about-img-single">
+                             <img src="images/slika6.jpeg" alt="" />
+                         </div>
+
+                         <div class="about-img-single">
+                             <img src="images/slika4.jpeg" alt="" />
+                         </div>
+                     </div>
+
+                     <div class="about-desc">
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                             specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                             passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it.</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- About us section ends -->
 
      <!-- Contactus section starts -->
      <section class="contactus" id="contact">
@@ -201,44 +243,6 @@
              </div>
          </div>
      </section>
-
-     <!-- About us section starts -->
-     <section class="aboutus" id="about">
-         <div class="container">
-             <div class="row">
-                 <div class="col-md-12">
-                     <div class="main-title">
-                         <h2>O frizerskom salonu</h2>
-                     </div>
-                 </div>
-             </div>
-
-             <div class="row">
-                 <div class="col-md-12">
-                     <div class="about-image">
-                         <div class="about-img-single">
-                             <img src="images/slika3.jpeg" alt="" />
-                         </div>
-
-                         <div class="about-img-single">
-                             <img src="images/slika6.jpeg" alt="" />
-                         </div>
-
-                         <div class="about-img-single">
-                             <img src="images/slika4.jpeg" alt="" />
-                         </div>
-                     </div>
-
-                     <div class="about-desc">
-                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                             specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                             passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it.</p>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section>
-     <!-- About us section ends -->
 
      <section class="contactus">
          <video src="images/video01.mp4" id="video" autoplay loop width="100%" controls>
@@ -336,7 +340,9 @@
                              <p>Expert Barber</p>
                              <h3>Miloš Stojaković</h3>
                              <div class="team-social">
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
+                                 <a href="https://www.instagram.com/dope.belgrade/"><i class="fa fa-instagram"></i></a>
+                                 <a href="#"><i class="fa fa-facebook"></i></a>
+                                 <a href="#"><i class="fa fa-youtube"></i></a>
                              </div>
                          </div>
                      </div>
@@ -378,11 +384,7 @@
                              <img class="image-padding" src="images/image1.jpeg" alt="" />
                          </figure>
 
-                         <div class="gallery-overlay">
-                             <div class="gallery-info">
-                                 <p>Hair Style 1</p>
-                             </div>
-                         </div>
+
                      </div>
                  </div>
 
@@ -392,11 +394,7 @@
                              <img class="image-padding" src="images/image2.jpeg" alt="" />
                          </figure>
 
-                         <div class="gallery-overlay">
-                             <div class="gallery-info">
-                                 <p>Hair Style 2</p>
-                             </div>
-                         </div>
+
                      </div>
                  </div>
 
@@ -406,11 +404,7 @@
                              <img class="image-padding" src="images/image3.jpeg" alt="" />
                          </figure>
 
-                         <div class="gallery-overlay">
-                             <div class="gallery-info">
-                                 <p>Hair Style 3</p>
-                             </div>
-                         </div>
+
                      </div>
                  </div>
 
@@ -420,11 +414,7 @@
                              <img class="image-padding" src="images/image5.jpeg" alt="" />
                          </figure>
 
-                         <div class="gallery-overlay">
-                             <div class="gallery-info">
-                                 <p>Hair Style 4</p>
-                             </div>
-                         </div>
+
                      </div>
                  </div>
              </div>
@@ -438,7 +428,7 @@
              <div class="row no-pad">
                  <div class="col-md-6">
                      <div class="store-image">
-                         <img src="images/store.jpg" alt="" />
+                         <img src="images/natips.jpeg" alt="" />
                      </div>
                  </div>
 
@@ -534,8 +524,8 @@
                  <div class="col-md-12">
                      <div class="footer-social">
                          <a href="#">Facebook</a>
-                         <a href="#">Twitter</a>
-                         <a href="#">Instagram</a>
+                         <a href="#">Youtube</a>
+                         <a href="https://www.instagram.com/dope.belgrade/">Instagram</a>
                          <a href="#"></a>
                          <a href="#"></a>
                          <a href="#"></a>
