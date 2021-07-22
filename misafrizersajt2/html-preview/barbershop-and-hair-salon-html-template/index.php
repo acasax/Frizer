@@ -114,20 +114,22 @@
 
                  <div class="col-md-4">
                      <a href="https://www.google.rs/maps/place/Dope+barbershop+Belgrade/@44.8138402,20.4738994,19.75z/data=!4m12!1m6!3m5!1s0x475a7bc946769ab3:0xf7ba46d1af24114f!2sDope+barbershop+Belgrade!8m2!3d44.8139363!4d20.4739259!3m4!1s0x475a7bc946769ab3:0xf7ba46d1af24114f!8m2!3d44.8139363!4d20.4739259">
-                     <div class="banner-info-single">
-                         <div class="icon-box"><i class="fa fa-map-marker"></i></div>
-                         <h3>Naša lokacija</h3>
-                         <p>Dalmatinska 19, Beograd</p>
-                     </div>
+                         <div class="banner-info-single">
+                             <div class="icon-box"><i class="fa fa-map-marker"></i></div>
+                             <h3>Naša lokacija</h3>
+                             <p>Dalmatinska 19, Beograd</p>
+                         </div>
                      </a>
                  </div>
 
                  <div class="col-md-4">
-                     <div class="banner-info-single">
-                         <div class="icon-box"><i class="fa fa-phone"></i></div>
-                         <h3>Rezerviši odmah </h3>
-                         <p>(+381) 62 776 911</p>
-                     </div>
+                     <a href="#contact">
+                         <div class="banner-info-single">
+                             <div class="icon-box"><i class="fa fa-phone"></i></div>
+                             <h3>Rezerviši odmah </h3>
+                             <p>(+381) 62 776 911</p>
+                         </div>
+                     </a>
                  </div>
              </div>
          </div>
@@ -244,9 +246,8 @@
          </div>
      </section>
 
-     <section class="contactus">
-         <video src="images/video01.mp4" id="video" autoplay loop width="100%" controls>
-         </video>
+     <section class="contactus" style="height: 95vh;">
+     <iframe src="https://www.youtube.com/embed/1HUz6PdqNHg?showinfo=0&autoplay=1"frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;border:none;"></iframe>
      </section>
 
      <!-- Services section starts -->
@@ -434,7 +435,7 @@
 
                  <div class="col-md-6">
                      <div class="pricing-logo">
-                         <img src="images/logo.png" alt="" />
+                         <img class="filter-white" src="images/logo.png" alt="" />
                      </div>
 
                      <div class="price-list">
