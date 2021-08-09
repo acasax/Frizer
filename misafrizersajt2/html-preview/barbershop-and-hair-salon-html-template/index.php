@@ -25,10 +25,9 @@
      <link rel="stylesheet" href="css/slicknav.css">
      <!-- Main custom css -->
      <link href="css/custom.css" rel="stylesheet" media="screen">
+     <link href="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
 
      <link rel="stylesheet" href="css/sweetalert.css">
-
-     <link href="css/mobiscroll.javascript.min.css" rel="stylesheet" />
 
      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -186,6 +185,11 @@
                  <div class="col-md-4">
                      <div class="contact-form">
                          <h2 class="contact-form-title">Rezerviši odmah</h2>
+                         <div class="col">
+                             <a id="bookingAppointment" href='#' class="link">
+                                 <i class="icon-pencil-writing"></i><span>Zakazivanje termina</span>
+                             </a>
+                         </div>
 
                          <form id="reservationForm" data-form-type="contact" method="post" enctype="multipart/form-data">
                              <div class="form-group">
@@ -199,16 +203,6 @@
                              <div class="form-group">
                                  <input type="text" class="form-control" id="phone" name="phone" placeholder="Broj telefona" />
                              </div>
-
-                             <script>
-                                 $(document).ready(function() {
-                                     var today = new Date().toISOString().split('T')[0];
-                                     document.getElementsByName("date")[0].setAttribute('min', today);
-
-                                     var nextWeekDate = new Date(new Date().getTime() + 6 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
-                                     document.getElementsByName("date")[0].setAttribute('max', nextWeekDate);
-                                 })
-                             </script>
 
                              <div class="form-group">
                                  <input type="datetime-local" class="form-control" id="date" name="date" placeholder="" />
@@ -247,7 +241,7 @@
      </section>
 
      <section class="contactus" style="height: 95vh;">
-     <iframe src="https://www.youtube.com/embed/1HUz6PdqNHg?showinfo=0&autoplay=1"frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;border:none;"></iframe>
+         <iframe src="https://www.youtube.com/embed/1HUz6PdqNHg?showinfo=0&autoplay=1" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;border:none;"></iframe>
      </section>
 
      <!-- Services section starts -->
@@ -556,6 +550,9 @@
      <!-- Jquery Library File -->
      <script src="js/jquery-1.12.4.min.js"></script>
      <script src="js/jquery.validate.min.js"></script>
+
+     <script src="vendor/bootstrap-datetimepicker/moment.js"></script>
+     <script src="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
      <!-- SmoothScroll -->
      <script src="js/SmoothScroll.js"></script>
      <!-- Bootstrap js file -->
@@ -569,9 +566,109 @@
      <script src="js/reservation.js"></script>
 
      <script src="js/sweetalert.js"></script>
-     <script src="js/datecontrol.js"></script>
 
-     <script src="js/mobiscroll.javascript.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js" charset="UTF-8"></script>
+
+     <div class="modal modal-form fade" id="modalBookingForm">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <button aria-label='Close' class='close' data-dismiss='modal'>
+                     <i class="icon-error"></i>
+                 </button>
+                 <div class="modal-body">
+                     <div class="modal-form">
+                         <h3>Zakaži termin</h3>
+                         <form class="mt-15" id="bookingForm" novalidate>
+                             <div class="successform">
+                                 <p>Uspešno ste zakazali termin</p>
+                             </div>
+                             <div class="errorform">
+                                 <p>Nešto nije u redu porobajte ponovo !</p>
+                             </div>
+
+                             <div class="input-group">
+                                 <span>
+                                     <i class="icon-user"></i>
+                                 </span>
+                                 <input type="text" onblur="$(this).valid()" id="bookingname" name="bookingname" class="form-control" autocomplete="off" placeholder="Vaše ime*" />
+                             </div>
+
+                             <div class="input-group">
+                                 <span>
+                                     <i class="icon-user"></i>
+                                 </span>
+                                 <input type="text" onblur="$(this).valid()" id="bookinglastname" name="bookinglastname" class="form-control" autocomplete="off" placeholder="Vaše prezime*" />
+                             </div>
+                             <div class="row row-xs-space mt-1">
+                                 <div class="col-sm-12">
+                                     <div class="input-group">
+                                         <span>
+                                             <i class="icon-email2"></i>
+                                         </span>
+                                         <input type="text" onblur="$(this).valid()" id="bookingemail" name="bookingemail" class="form-control" autocomplete="off" placeholder="Vaš e-mail*" />
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="row row-xs-space mt-1">
+                                 <div class="col-sm-6 mt-1 mt-sm-0">
+                                     <div class="input-group">
+                                         <span>
+                                             <i class="icon-smartphone"></i>
+                                         </span>
+                                         <input type="text" name="bookingphone" placeholder="xxx/xxx-xxxx" id="bookingphone" onblur="$(this).valid()" class="form-control" autocomplete="off" />
+                                     </div>
+                                 </div>
+                                 <div class="col-sm-6">
+                                     <div class="input-group">
+                                         <span>
+                                             <i class="icon-birthday"></i>
+                                         </span>
+                                         <input type="text" name="bookingage" id="bookingage" onblur="$(this).valid()" class="form-control" autocomplete="off" placeholder="Godine" />
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="row row-xs-space mt-1">
+                                 <div class="col-sm-6 mt-1 mt-sm-0">
+                                     <div class="input-group flex-nowrap mt-1">
+                                         <span>
+                                             <i class="icon-calendar2"></i>
+                                         </span>
+                                         <div class="datepicker-wrap">
+                                             <input name="bookingdate" id="bookingdate" type="text" onblur="$(this).valid()" class="form-control datetimepicker" placeholder="Datum :" readonly>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-sm-6 mt-1 mt-sm-0">
+                                     <div class="input-group flex-nowrap mt-1">
+                                         <span>
+                                             <i class="icon-clock"></i>
+                                         </span>
+                                         <div class="datepicker-wrap">
+                                             <input name="bookingtime" id="bookingtime" onblur="$(this).valid()" type="text" class="form-control timepicker" placeholder="Vreme :">
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                             <textarea name="bookingmessage" id="bookingmessage" class="form-control" placeholder="Koje su vaše želje ?"></textarea>
+                             <div class="text-right mt-2">
+                                 <button type="submit" class="btn btn-sm btn-hover-fill">Zakaži</button>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <script>
+         $(document).on('click', '#bookingAppointment', function() {
+             $('#modalBookingForm').modal('show');
+         });
+         /*let video = document.getElementById('video');
+         video.addEventListener('click',function(){
+         	video.play();
+         },false);*/
+     </script>
 
 
  </body>
