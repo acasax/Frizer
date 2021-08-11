@@ -556,7 +556,7 @@ a:focus {
 }
 
 .aboutus {
-    background: #212121;
+    background: #485e7e;
     padding: 100px 0;
 }
 
@@ -603,7 +603,7 @@ a:focus {
 }
 
 .service {
-    background: #111010;
+    background: #485e7e;
     padding: 100px 0;
 }
 
@@ -779,7 +779,7 @@ a:focus {
 
 .pricing {
     padding: 100px 0;
-    background: #111010;
+    background: #485e7e;
 }
 
 .store-image {
@@ -1216,4 +1216,8 @@ footer {
 
 .image-padding {
     padding: 3px;
+}
+
+.filter-white {
+    filter: brightness(0) invert(1);
 }

@@ -1,4 +1,4 @@
-const $productForm = $('#reservationForm')
+const $productForm = $('')
     let validator = void(0)
 
     if ($productForm.length) {
@@ -35,7 +35,7 @@ const $productForm = $('#reservationForm')
             submitHandler: function submitHandler(form) {
                 event.preventDefault();
                 $.ajax({
-                    url: "php_vendors/sendreservation.php",
+                    url: "php_vendors/.php",
                     method: 'POST',
                     data: new FormData(form),
                     processData: false,
