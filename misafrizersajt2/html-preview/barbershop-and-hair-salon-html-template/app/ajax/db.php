@@ -1,7 +1,7 @@
 <?php
 define('SITE_ROOT', __DIR__);
-$username = 'osmehzap_biznis';
-$password = 'podlogazamis123';
-$connection = new PDO( 'mysql:host=localhost;dbname=osmehzap_dentist', $username, $password );
+$username = 'root';
+$password = '';
+$connection = new PDO( 'mysql:host=localhost;dbname=frizer_reservation', $username, $password );
 
 ?>

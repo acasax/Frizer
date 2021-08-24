@@ -3,9 +3,9 @@ class Database
 {
 
     private $host = "localhost";
-    private $db_name = "osmehzap_dentist";
-    private $username = "osmehzap_biznis";
-    private $password = "podlogazamis123";
+    private $db_name = "frizer_reservation";
+    private $username = "root";
+    private $password = "";
     public $conn;
 
     public function dbConnection()

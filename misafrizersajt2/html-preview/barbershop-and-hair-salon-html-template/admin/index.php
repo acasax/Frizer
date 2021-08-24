@@ -6,7 +6,7 @@
   <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="dist/img/kreativeLab/favicon.ico">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KDL | Zadavanje termnia</title>
+  <title>DOPE | Zadavanje termina</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <!-- Ionicons -->
@@ -73,11 +73,11 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4" style="overflow: hidden">
 
     <a href="" class="brand-link">
-      <img src="dist/img/kreativeLab/logo.png"
-           alt="Kreative Dent Lab"
+      <img src="../images/logo.png"
+           alt="Dope Barber"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Kreative Dent Lab</span>
+      <span class="brand-text font-weight-light">Dope Barber Shop</span>
     </a>
 
 
@@ -186,7 +186,7 @@
                 </div>
                 <div class="col-md-6 col-xs-12 col-lg-6 col-sm-12 row">
                   <form id="setTermsByDateForm">
-                    <h5>Zadavanje termnia </h5>
+                    <h5>Zadavanje termina </h5>
                     <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12 row">
                       <div class="col-md-4 col-sm-6 col-xs-12 col-lg-4">
                         <label for="term_date">Datum</label>
@@ -241,7 +241,7 @@
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="footer-div">
-      <strong>Copyright &copy;2019 <a href="http://osmehzapromenu.rs/">Kreative Dent Lab</a>.</strong> Sva prava su zadržana.
+      <strong>Copyright &copy;2021 <a href="http://dopebarber.rs">Dope barber shop</a>.</strong> Sva prava su zadržana.
     </div>
 
 

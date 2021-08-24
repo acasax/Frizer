@@ -11,7 +11,7 @@
      <meta name="author" content="Awaiken Theme">
      <meta name='robots' content='noindex,nofollow' />
      <!-- Page Title -->
-     <title>Barbershop and Hair Salon HTML Template</title>
+     <title>Dope Barber Shop</title>
      <!-- Google Fonts css-->
      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700%7CMontserrat:400,500,600,700,800,900" rel="stylesheet">
      <!-- Bootstrap css -->
@@ -26,6 +26,8 @@
      <!-- Main custom css -->
      <link href="css/custom.css" rel="stylesheet" media="screen">
      <link href="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
 
      <link rel="stylesheet" href="css/sweetalert.css">
 
@@ -59,7 +61,7 @@
                  <div class="navbar-header">
                      <!-- Logo starts -->
                      <a class="navbar-brand" href="#">
-                         <img src="images/logo-textsastrane-tp.png" style="width: 182px;" alt="Barbershop" />
+                         <img src="images/logo-textsastrane-tp.png" style="width: 235px;" alt="Barbershop" />
                      </a>
                      <!-- Logo Ends -->
 
@@ -80,8 +82,6 @@
                          <li><a href="#ourteam">Tim</a></li>
                          <li><a href="#gallery">Galerija</a></li>
                          <li><a href="#pricing">Cene</a></li>
-                         <li><a href="#testimonial">Utisci</a></li>
-                         <li><a href="#contact">Kontakt</a></li>
                      </ul>
                  </div>
                  <!-- Navigation Ends -->
@@ -113,20 +113,20 @@
 
                  <div class="col-md-4">
                      <a href="https://www.google.rs/maps/place/Dope+barbershop+Belgrade/@44.8138402,20.4738994,19.75z/data=!4m12!1m6!3m5!1s0x475a7bc946769ab3:0xf7ba46d1af24114f!2sDope+barbershop+Belgrade!8m2!3d44.8139363!4d20.4739259!3m4!1s0x475a7bc946769ab3:0xf7ba46d1af24114f!8m2!3d44.8139363!4d20.4739259">
-                         <div class="banner-info-single">
+                         <div class="banner-info-single" style="padding-bottom: 40px;">
                              <div class="icon-box"><i class="fa fa-map-marker"></i></div>
                              <h3>Naša lokacija</h3>
-                             <p>Dalmatinska 19, Beograd</p>
+                             <p>Dalmatinska 19, Beograd<br></p>
                          </div>
                      </a>
                  </div>
 
                  <div class="col-md-4">
                      <a href="#contact">
-                         <div class="banner-info-single">
+                         <div class="banner-info-single"  style="padding-bottom: 40px;">
                              <div class="icon-box"><i class="fa fa-phone"></i></div>
                              <h3>Rezerviši odmah </h3>
-                             <p>(+381) 62 776 911</p>
+                             <p>(+381) 62 776 911<br></p>
                          </div>
                      </a>
                  </div>
@@ -167,9 +167,10 @@
                      </div>
 
                      <div class="about-desc">
-                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                             specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                             passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it.</p>
+                         <p style="font-size: 20px;">Dope barbershop je moderna berbernica koja ide u korak sa novim trendovima u svetu frizeraja.
+                             Ako imate dovoljno materijala i znate šta želite Dope barbershop je pravo mesto za vas.
+                             Zakažite svoj termin putem web aplikacije i dodjite da se, uz šoljicu kafe i čašicu domaće rakije,
+                            pobrinemo oko vašeg izgleda. Sve najmodernije frizure i brade na jednom mestu. Dalmatinska 19, preko puta Botaničke bašte. <br>Keep it fresh!</p>
                      </div>
                  </div>
              </div>
@@ -185,11 +186,11 @@
                  <div class="col-md-4">
                      <div class="contact-form">
                          <h2 class="contact-form-title">Rezerviši odmah</h2>
-                         <div class="col">
+                         <!-- <div class="col">
                              <a id="bookingAppointment" href='#' class="link">
                                  <i class="icon-pencil-writing"></i><span>Zakazivanje termina</span>
                              </a>
-                         </div>
+                         </div> -->
 
                          <form id="reservationForm" data-form-type="contact" method="post" enctype="multipart/form-data">
                              <div class="form-group">
@@ -232,7 +233,7 @@
                              </div>
 
                              <div class="row row-xs-space mt-1">
-                                 <div class="col-sm-6 mt-1 mt-sm-0">
+                                 <div class="col-sm-6 mt-1 mt-sm-0 col-md-6 col-lg-6">
                                      <div class="input-group flex-nowrap mt-1">
                                          <span>
                                              <i class="icon-calendar2"></i>
@@ -243,7 +244,7 @@
                                      </div>
                                  </div>
                                  <div class="col-sm-6 mt-1 mt-sm-0">
-                                     <div class="input-group flex-nowrap mt-1">
+                                     <div class="input-group flex-nowrap mt-1 col-md-6 col-lg-6">
                                          <span>
                                              <i class="icon-clock"></i>
                                          </span>
@@ -289,7 +290,7 @@
                          </div>
 
                          <h3>Oblikovanje brade</h3>
-                         <p>Lior sit amet, consectetur adipisg elit,sed do eiusmod tempor incdunt ut</p>
+                         <p></p>
                          <h5>Vreme : 60 Min</h5>
                      </div>
                  </div>
@@ -303,7 +304,7 @@
                          </div>
 
                          <h3>Brijanje</h3>
-                         <p>Lior sit amet, consectetur adipisg elit,sed do eiusmod tempor incdunt ut</p>
+                         <p></p>
                          <h5>Vreme : 60 Min</h5>
                      </div>
                  </div>
@@ -317,7 +318,7 @@
                          </div>
 
                          <h3>Šišanje</h3>
-                         <p>Lior sit amet, consectetur adipisg elit,sed do eiusmod tempor incdunt ut</p>
+                         <p></p>
                          <h5>Vreme : 60 Min</h5>
                      </div>
                  </div>
@@ -360,8 +361,8 @@
                              <h3>Miloš Stojaković</h3>
                              <div class="team-social">
                                  <a href="https://www.instagram.com/dope.belgrade/"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-youtube"></i></a>
+                                 <a href="https://www.facebook.com/dope.belgrade/"><i class="fa fa-facebook"></i></a>
+                                 <!-- <a href="#"><i class="fa fa-youtube"></i></a> -->
                              </div>
                          </div>
                      </div>
@@ -542,18 +543,13 @@
              <div class="row">
                  <div class="col-md-12">
                      <div class="footer-social">
-                         <a href="#">Facebook</a>
-                         <a href="#">Youtube</a>
+                         <a href="https://www.facebook.com/dope.belgrade/">Facebook</a>
+                         <!-- <a href="#">Youtube</a> -->
                          <a href="https://www.instagram.com/dope.belgrade/">Instagram</a>
                          <a href="#"></a>
                          <a href="#"></a>
                          <a href="#"></a>
                      </div>
-
-                     <div class="site-info">
-                         <p>Copyright &copy; Untitled. All rights reserved. Design By <a href="www.resivoje" target="_blank">Resivoje</a> <a href="" target="_blank"></a> <a href="" target="_blank"></a> <a href="" target="_blank"></a> <a href="" target="_blank"></a></p>
-                     </div>
-
                      <div class="footer-menu">
                          <ul>
                              <li><a href="#">Početna</a></li>
@@ -562,10 +558,14 @@
                              <li><a href="#">Tim</a></li>
                              <li><a href="#">Galerija</a></li>
                              <li><a href="#">Cene</a></li>
-                             <li><a href="#">Utisci</a></li>
-                             <li><a href="#">Kontakt</a></li>
                          </ul>
                      </div>
+
+                     <div class="site-info">
+                         <p>Copyright &copy; Untitled. All rights reserved. Design By <a href="www.resivoje" target="_blank">Resivoje</a> <a href="" target="_blank"></a> <a href="" target="_blank"></a> <a href="" target="_blank"></a> <a href="" target="_blank"></a></p>
+                     </div>
+
+                     
                  </div>
              </div>
          </div>
