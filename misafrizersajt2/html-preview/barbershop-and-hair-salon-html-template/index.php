@@ -234,7 +234,7 @@
 
                              <div class="row row-xs-space mt-1">
                                  <div class="col-sm-6 mt-1 mt-sm-0 col-md-6 col-lg-6">
-                                     <div class="input-group flex-nowrap mt-1">
+                                     <div class="input-group flex-nowrap mt-1" style="width: 100%;">
                                          <span>
                                              <i class="icon-calendar2"></i>
                                          </span>
