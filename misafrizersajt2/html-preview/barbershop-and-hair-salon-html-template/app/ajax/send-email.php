@@ -52,7 +52,7 @@
 
 
       //unesi tvoj email
-      $toEmail = "acasax@gmail.com";
+      $toEmail = "dopebarbershope@gmail.com";
 
       $mailBody = "<div>
             <p>Ime i prezime: ".$user_name."</p>

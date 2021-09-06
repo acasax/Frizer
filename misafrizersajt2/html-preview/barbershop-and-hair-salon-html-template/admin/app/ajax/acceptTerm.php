@@ -63,7 +63,7 @@
          $emailSubject = "Kreative Dent Lab - Termin za " . $bookingName . " " . $bookingSurname ." - " . str_pad($bookingTime,2,"0",STR_PAD_LEFT) . " h" ;
 
 
-        $bookingEmail = 'acasax@gmail.com';
+        $bookingEmail = 'dopebarbershope@gmail.com';
          $send = $user->send_custom_email($bookingEmail,$mailBody,$emailSubject);
 
          if(!$send) {

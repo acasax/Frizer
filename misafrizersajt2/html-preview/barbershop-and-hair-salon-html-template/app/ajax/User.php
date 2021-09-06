@@ -51,11 +51,11 @@ class User extends \Firebase\JWT\JWT
         $mail->SMTPSecure = "tls";
         $mail->Host = "smtp.gmail.com";
         $mail->Port = 587;
-        $mail->AddAddress("acasax@gmail.com"); //email unesi tvoj email
-        $mail->Username = "acasax@gmail.com"; //email
-        $mail->Password = "Podlogazamis456!"; //password
-        $mail->SetFrom($email, 'Kretive Dent Lab');
-        $mail->AddReplyTo($email, "Kretive Dent Lab");
+        $mail->AddAddress("9@gmail.com"); //email unesi tvoj email
+        $mail->Username = "dopebarbershope@gmail.com"; //email
+        $mail->Password = "Frizer345"; //password
+        $mail->SetFrom($email, 'Dope Barber');
+        $mail->AddReplyTo($email, "Dope Barber");
         $mail->Subject = $subject;
         $mail->MsgHTML($message);
 
@@ -85,9 +85,9 @@ class User extends \Firebase\JWT\JWT
         $mail->Host = "smtp.gmail.com";
         $mail->Port = 587;
       $mail->AddAddress($email); //email from customer
-      $mail->Username = "acasax@gmail.com"; //email
-      $mail->Password = "Podlogazamis456!"; //password
-      $mail->SetFrom("acasax@gmail.com", 'Kretive Dent Lab'); // duletov email kreative lab
+      $mail->Username = "dopebarbershope@gmail.com"; //email
+      $mail->Password = "Frizer345"; //password
+      $mail->SetFrom("dopebarbershope@gmail.com", 'Kretive Dent Lab'); // duletov email kreative lab
       //$mail->AddReplyTo("", "Kretive Dent Lab"); // add to cc
       $mail->Subject = $subject;
       $mail->MsgHTML($message);
